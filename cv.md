@@ -22,4 +22,4 @@ I have been working as a tester for 3 months.
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ### Language:
 * English A2 ()
-* Russian (native speaker) 
+* Russian (native speaker)

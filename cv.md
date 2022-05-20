@@ -14,3 +14,12 @@ function simpleMultiplication(number) {
   } else {return number * 9}
 }
 ```
+### Work experience:
+I have been working as a tester for 3 months.
+### Education and courses:
+* JavaScript https://learn.javascript.ru/ (in progress)
+* https://ru.code-basics.com/ (HTML, CSS, Java Script)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+### Language:
+* English A2 ()
+* Russian (native speaker) 

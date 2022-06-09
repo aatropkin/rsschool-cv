@@ -4,13 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rsschool-cv-html</title>
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    My CV!
-    My CV!
-    My CV!
-Its my work!
+    <div class="promo">
+        <div class="container">
+            <header class="header">
+                <a href="#" ><img class="heder__logo" src="assets/logo.png" alt="Logo"></a>
+                <nav class="nav">
+                    <ul>
+                    <li><a href="#aboutme" class="nav-link">About me</a></li>  
+                    <li><a href="#edu" class="nav-link">Education</a></li>  
+                    <li><a href="#exp" class="nav-link">Experience</a></li>  
+                    <li><a href="#lang" class="nav-link">Languages</a></li>   
+                    <li><a href="#code" class="nav-link">Code</a></li> 
+                    <li><a href="#cont" class="nav-link">Contacts</a></li>   
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="aboutmeblock">
+                <div class="titleaboutme">
+                    <h1>Aleksandr Tropkin</h1>
+                    <h2>Beginner frontend devoloper</h2>
+                </div>
+                <img class="avatar" src="assets/avatar.png" alt="Avatar">
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="edu">
+        <div class="container">
+            <div class="edu">
+                <h2>Education and courses</h2>
+                <ul>
+                    <li>JavaScript https://learn.javascript.ru/ (in progress)</li>
+                    <li>https://ru.code-basics.com/ (HTML, CSS, Java Script)</li>
+                    <li> RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>   
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="exp">
+        <div class="container">
+            <div class="exe">
+                <h2>Experience</h2>
+                    <h3>I have been working as a tester for 7 months.</h3>   
+            </div>
+        </div>
+    </section>
+
+    <section class="languages" id="lang">
+        <div class="container">
+            <div class="lang">
+                <h2>Language</h2>
+                <ul class="lan">
+                <li>Russian (native speaker)</li>  
+                <li>English A2:</li> 
+                </ul>
+                  
+                <a  href="https://www.efset.org/cert/HcZomt"><img src="assets/leveleng.png" alt="level-skills"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="code" id="code">
+        <div class="container">
+            <div class="cod">
+                <h2>Code Example</h2>
+                <pre>
+
+                function simpleMultiplication(number) {
+                if (number % 2 == 0){
+                  return number * 8
+                } else {return number * 9}
+                } 
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contacts" id="cont">
+        <div class="container">
+            <div class="cont">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>E-mail: aatropkin@yandex.ru</li>
+                    <li>Discord: Aleksandr_Tropkin</li>
+                    <li>Telegram: @santropro</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a href="https://github.com/aatropkin"><img class="footer_logo_git" src="assets/logo_git.png" alt="Github"></a>
+                <div><p class="year">CREATED IN 2022</p></div>
+                <a href="https://rs.school/js/"><img class="footer_logo_sc" src="assets/rs_school_js.png" alt="RSschool"></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

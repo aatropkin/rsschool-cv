@@ -1,1 +1,1 @@
-https://aatropkin.github.io/rsschool-cv/
+https://GITHUB-aatropkin.github.io/rsschool-cv/

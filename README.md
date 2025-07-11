@@ -1,2 +1,1 @@
-# rsschool-cv
-RSschool
+https://aatropkin.github.io/rsschool-cv/
